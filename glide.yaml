@@ -1,0 +1,10 @@
+package: github.com/tutley/dhcplogger
+import:
+- package: github.com/google/gopacket
+  version: ^1.1.13
+  subpackages:
+  - layers
+  - pcap
+- package: gopkg.in/mgo.v2
+  subpackages:
+  - bson
